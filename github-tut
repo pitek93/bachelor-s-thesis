@@ -1,0 +1,14 @@
+git clone https://github.com/pitek93/bachelor-s-thesis
+ls
+cd bachelor-s-thesis/
+ls
+git status
+touch test/txt
+touch test.txt
+vim test.txt 
+git add .
+ls -la
+git status
+git commit -m "test"
+git push origin master
+
